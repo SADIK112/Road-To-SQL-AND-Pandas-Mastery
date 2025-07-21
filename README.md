@@ -1,4 +1,27 @@
-# Olist E-commerce Seller Data Analysis
+# 🟩 Query: Ecommerce Data Query Exploration
+
+## 📌 Description
+The **Brazilian E-Commerce dataset** by Olist is a comprehensive collection of real sales data from a multi-vendor marketplace operating in Brazil. It covers detailed interactions between customers and sellers, including order information, delivery times, product details, payment transactions, and customer reviews.
+
+### 📦 What's Included
+- **Customers**: Unique customers with location details
+- **Orders**: Order status, timestamps (purchase, delivery, etc.)
+- **Order Items**: Products within orders, prices, and shipping costs
+- **Products**: Product categories and metadata
+- **Sellers**: Information about vendors and their locations
+- **Payments**: Payment methods and transaction values
+- **Reviews**: Customer review scores and comments
+- **Geolocation**: Zip-code level coordinates for mapping
+
+### 📊 Total Records
+- ~100k orders
+- ~75k customers
+- ~3k sellers
+- Covers a period between **2016 and 2018**
+
+### 🧩 Source
+- Originally published on [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- Released by Olist, a Brazilian marketplace platform
 
 This project focuses on performing **data analysis on the Olist E-commerce dataset** using both **SQL** and **Python (Pandas)**.  
 The goal is to answer business questions related to sellers, cities, states, product dimensions, and categories by combining the power of **SQL queries** and **Python-based analysis**.
